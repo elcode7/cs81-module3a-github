@@ -15,3 +15,9 @@ function isEven(number) {
 }
 console.log (isEven(4)); // true
 console.log (isEven(7)); // false
+
+// Returns the first item in an array
+function theFirstItem(array) {
+  return array[0];
+}
+console.log(getFirstItem(["apple", "cherry", "banana"])); //apple
